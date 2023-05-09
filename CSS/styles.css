@@ -112,7 +112,7 @@ a:focus {
 button {
   border: none;
   font-family: var(--button-font-family);
-  backgroung-color: var(--button-backgroung-color);
+  background-color:var(--navigation-list-hover-bg-color);
   color: var(--secondary-color);
   padding: 10px;
   border-radius: 3px;
