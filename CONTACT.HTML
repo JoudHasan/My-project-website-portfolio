@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Book Store</title>
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon-32x32.png">
+    <link rel="stylesheet" type="text/css" href="CSS/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Merriweather&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="CSS/styles.css">
+</head>
+
+
+<body>
+
+    <header class="page-header">
+        <!-- Add Logo here -->
+        <img src="img/logo.png" width="250px" alt="My Book Store Logo" class="profile-image">
+        <nav class="main-navigation page-header__item">
+            <ul role="menubar" class="navigation-list">
+                <li role="presentation">
+                    <a href="index.html" role="menuitem"
+                        class="navigation-list__item navigation-list__item--active">Home</a>
+                </li>
+                <li role="presentation">
+                    <a href="about.html" role="menuitem" class="navigation-list__item">About</a>
+                </li>
+                <li role="presentation">
+                    <a href="contact.html" role="menuitem" class="navigation-list__item">Contact</a>
+                </li>
+                <li role="presentation">
+                    <a href="work.html" role="menuitem" class="navigation-list__item">work</a>
+        </nav>
+        </li>
+        </ul>
+        </nav>
+    </header>
+
+
+
+    <main>
+        <h1>Contact us</h1>
+        <div>Danziger street 160<br>
+            10404, Berlin<br>
+            Deutschland<br>
+            <br>
+            <p>Email us: <a href="mailto:Joud.hasan85@gmail.com">joud.hasan85@gmail.com</a></p>
+            <p>Tel: <a href="tel:+4917672116422">+49 17672116422</a></p>
+            <p>Skype: <a href="skype:hello.mybookstore">hello.mybookstore</a></p>
+            <form action="https://openlibrary.org/" method="get">
+                <label for="search-library">Explore our library:</label>
+                <input type="text" id="search-library" name="q" placeholder="Search...">
+                <button type="submit">Go</button>
+            </form>
+            <br>
+            <form action="" method="post" id="contact-form">
+                <label class="standard-label" for="contact-email">Email: </label>
+                <input type="email" id="contact-email" required>
+                <input type="submit" value="Submit">
+                <br>
+                <br>
+                <label class="standard-label" for="contact-Telephone">Telephone:</label>
+                <input type="tel" id="contact-Telephone">
+                <br>
+                <br>
+                <label class="standard-label" for="contact-Message">Message: </label>
+                <textarea maxlength="250" id="contact-Message" required=""></textarea>
+                <input type="submit" value="Send message">
+
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <div class="icon-container">
+            <img src="img/github-icon.svg" alt="GitHub Icon" />
+        </div>
+        <div class="icon-container">
+            <img src="img/twitter-6.svg" alt="Twitter Icon" />
+        </div>
+        <div class="icon-container">
+            <img src="img/linkedin-icon-2.svg" alt="LinkedIn Icon" />
+        </div>
+    </footer>
+
+</body>
+
+</html>
