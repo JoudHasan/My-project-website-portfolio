@@ -2,9 +2,9 @@
   --background-color: #cec2c2;
   --primary-color: #03324a;
   --secondary-color: white;
-  --font-family-sans-serif: 'Lato', sans-serif;
+  --font-family-sans-serif: "Lato", sans-serif;
   --h1-color: #133337;
-  --button-backgroung-color: #99adb7;
+  --button-background-color: #99adb7;
   --button-hover-color: #5f2e4c;
   --button-secondary-color: #16621c;
   --navigation-list-hover-bg-color: #333;
@@ -35,7 +35,7 @@ body {
   background-color: var(--background-color);
   color: var(--primary-color);
   font-family: var(--font-family-sans-serif);
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
   font-weight: var(--body-font-weight);
   font-size: var(--body-font-weight);
   line-height: var(--body-line-height);
@@ -68,46 +68,6 @@ table {
   align-items: center;
   margin-bottom: 10px;
 }
-
-/*
-.button {
-  display: inline-block;
-  background-color: #011f04;
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 3px;
-  font-size: 16px;
-  font-family: inherit;
-  transition-duration: 0.9s;
-  transition-property: opacity;
-  transition-delay: 0.3s;
-}
-
-button:hover {
-  background-color: #5f2e4c;
-  cursor: pointer;
-  opacity: 0.8;
-}
-
-a {
-  color: #16621c;
-  transition-duration: 0.3s;
-}
-
-a:hover {
-  text-decoration: none;
-  opacity: 0.8;
-}
-
-a:visited {
-  color: #f9584b;
-}
-
-a:focus {
-  text-decoration: none;
-}
-*/
 
 button {
   border: none;
@@ -198,7 +158,7 @@ header {
   border-radius: var(--profile-border-radius);
 }
 
-#mymaincontainer {
+#my-main-container {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -416,4 +376,3 @@ footer {
     grid-template-columns: 1fr;
   }
 }
-
