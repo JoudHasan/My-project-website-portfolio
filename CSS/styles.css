@@ -112,7 +112,7 @@ a:focus {
 button {
   border: none;
   font-family: var(--button-font-family);
-  background-color:var(--navigation-list-hover-bg-color);
+  background-color: var(--navigation-list-hover-bg-color);
   color: var(--secondary-color);
   padding: 10px;
   border-radius: 3px;
@@ -416,3 +416,4 @@ footer {
     grid-template-columns: 1fr;
   }
 }
+

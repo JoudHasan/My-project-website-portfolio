@@ -7,7 +7,7 @@
 
 * {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
@@ -16,14 +16,14 @@ body {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   background-color: #cec2c2;
   color: #03324a;
   font-family: 'Lato', sans-serif;
@@ -60,11 +60,11 @@ table {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   margin-bottom: 10px;
 }
 
@@ -111,20 +111,20 @@ a:focus {
 button {
   border: none;
   font-family: inherit;
-  backgroung-color: #99adb7;
+  background-color: #99adb7;
   color: white;
   padding: 10px;
   border-radius: 3px;
   border-bottom: 2px solid #011f04;
   -webkit-transition-duration: 0.9s;
-       -o-transition-duration: 0.9s;
-          transition-duration: 0.9s;
+  -o-transition-duration: 0.9s;
+  transition-duration: 0.9s;
   -webkit-transition-property: opacity;
   -o-transition-property: opacity;
   transition-property: opacity;
   -webkit-transition-delay: 0.3s;
-       -o-transition-delay: 0.3s;
-          transition-delay: 0.3s;
+  -o-transition-delay: 0.3s;
+  transition-delay: 0.3s;
 }
 
 .button__secondary {
@@ -151,7 +151,7 @@ button:focus {
 .logo-container {
   padding: 10px;
   -ms-flex-negative: 0;
-      flex-shrink: 0;
+  flex-shrink: 0;
 }
 
 header {
@@ -159,11 +159,11 @@ header {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: right;
-      -ms-flex-pack: right;
-          justify-content: right;
+  -ms-flex-pack: right;
+  justify-content: right;
   -webkit-box-align: right;
-      -ms-flex-align: right;
-          align-items: right;
+  -ms-flex-align: right;
+  align-items: right;
   padding: 20px;
 }
 
@@ -178,14 +178,14 @@ header {
 
 .page-header__item {
   -webkit-box-flex: 0;
-      -ms-flex: 0 1 200px;
-          flex: 0 1 200px;
+  -ms-flex: 0 1 200px;
+  flex: 0 1 200px;
 }
 
 .page-header__item:last-child {
   -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
   text-align: right;
 }
 
@@ -223,11 +223,11 @@ header {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .welcome-text-logo {
@@ -236,8 +236,8 @@ header {
   display: flex;
   margin-bottom: 50px;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 #for-more-information {
@@ -250,8 +250,8 @@ header {
   padding: 10px;
   margin-bottom: 50px;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 footer {
@@ -263,11 +263,11 @@ footer {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   height: 50px;
   padding-top: 20px;
 }
@@ -277,11 +277,11 @@ footer {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   width: 50px;
   height: 50px;
   margin-left: 20px;
@@ -395,21 +395,21 @@ footer {
 
 .sun {
   -webkit-animation-duration: 5s;
-          animation-duration: 5s;
+  animation-duration: 5s;
   -webkit-animation-name: color-change;
-          animation-name: color-change;
+  animation-name: color-change;
   -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
   -webkit-animation-direction: alternate;
-          animation-direction: alternate;
+  animation-direction: alternate;
   -webkit-animation-timing-function: linear;
-          animation-timing-function: linear;
+  animation-timing-function: linear;
 }
 
 @-webkit-keyframes cloud-move {
   0% {
     -webkit-transform: translate(0, 50px);
-            transform: translate(0, 50px);
+    transform: translate(0, 50px);
     background-color: white;
   }
 
@@ -419,7 +419,7 @@ footer {
 
   100% {
     -webkit-transform: translate(100px, 50px);
-            transform: translate(100px, 50px);
+    transform: translate(100px, 50px);
     background-color: white;
   }
 }
@@ -427,7 +427,7 @@ footer {
 @keyframes cloud-move {
   0% {
     -webkit-transform: translate(0, 50px);
-            transform: translate(0, 50px);
+    transform: translate(0, 50px);
     background-color: white;
   }
 
@@ -437,7 +437,7 @@ footer {
 
   100% {
     -webkit-transform: translate(100px, 50px);
-            transform: translate(100px, 50px);
+    transform: translate(100px, 50px);
     background-color: white;
   }
 }
@@ -445,27 +445,27 @@ footer {
 .cloud-front {
   background-color: #cec2c2;
   -webkit-animation-duration: 15s;
-          animation-duration: 15s;
+  animation-duration: 15s;
   -webkit-animation-name: cloud-move;
-          animation-name: cloud-move;
+  animation-name: cloud-move;
   -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
   -webkit-animation-direction: alternate;
-          animation-direction: alternate;
+  animation-direction: alternate;
   -webkit-animation-timing-function: linear;
-          animation-timing-function: linear;
+  animation-timing-function: linear;
 }
 
 @-webkit-keyframes cloud-move-reverse {
   0% {
     -webkit-transform: translate(500px, 50px);
-            transform: translate(500px, 50px);
+    transform: translate(500px, 50px);
     fill: dimgray;
   }
 
   100% {
     -webkit-transform: translate(100px, 48px);
-            transform: translate(100px, 48px);
+    transform: translate(100px, 48px);
     fill: white;
   }
 }
@@ -473,28 +473,28 @@ footer {
 @keyframes cloud-move-reverse {
   0% {
     -webkit-transform: translate(500px, 50px);
-            transform: translate(500px, 50px);
+    transform: translate(500px, 50px);
     fill: dimgray;
   }
 
   100% {
     -webkit-transform: translate(100px, 48px);
-            transform: translate(100px, 48px);
+    transform: translate(100px, 48px);
     fill: white;
   }
 }
 
 .cloud-back {
   -webkit-animation-duration: 50s;
-          animation-duration: 50s;
+  animation-duration: 50s;
   -webkit-animation-name: cloud-move-reverse;
-          animation-name: cloud-move-reverse;
+  animation-name: cloud-move-reverse;
   -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
   -webkit-animation-direction: alternate;
-          animation-direction: alternate;
+  animation-direction: alternate;
   -webkit-animation-timing-function: linear;
-          animation-timing-function: linear;
+  animation-timing-function: linear;
 }
 
 @media all and (max-width: 500px) {
@@ -549,3 +549,4 @@ footer {
     grid-template-columns: 1fr;
   }
 }
+
