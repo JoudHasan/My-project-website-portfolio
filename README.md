@@ -2,6 +2,7 @@
 # MEET
 
 MEET is an application that empowers users to discover events happening in various cities. Users can filter events by city, view event details, specify the number of events to display, use the app offline, add shortcuts to the home screen, and visualize event details through charts.
+<img width="1430" alt="Screenshot 2024-04-16 at 11 56 40" src="https://github.com/JoudHasan/portfolio-website/assets/129724393/86c2339a-1e6a-48de-9aec-061097f28ab0">
 
 ## Key Features
 
