@@ -192,6 +192,7 @@ body {
 }
 
 .profile-image2 {
+  padding-top: 100px;
   max-width: 300px; /* Adjust as needed */
   width: 100%;
   height: auto;
