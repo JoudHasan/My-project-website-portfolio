@@ -57,7 +57,7 @@ body {
 }
 
 .navigation-list__item--active {
-  color: #16621c; /* Dark green */
+  color: white; /* Dark green */
 }
 
 .contact-us {
