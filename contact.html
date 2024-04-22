@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact My Book Store</title>
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+    <link rel="stylesheet" type="text/css" href="CSS/style.production.css">
+</head>
+
+
+<body>
+
+    <header class="page-header">
+        <div class="header-container">
+            <p class="headername">Joud Hasan</p>
+            <nav class="main-navigation">
+                <ul class="navigation-list">
+                    <li>
+                        <a href="index.html" class="navigation-list__item">Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html" class="navigation-list__item">About</a>
+                    </li>
+                    <li>
+                        <a href="work.html" class="navigation-list__item">Work</a>
+                    </li>
+                    <li>
+                        <a href="contact.html" class="navigation-list__item navigation-list__item--active">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="contact-us">
+        <h1>Contact us</h1>
+        <div class="contact">
+            <p>Danziger street 160<br>
+                10404, Berlin<br>
+                Deutschland</p>
+            <p>Email us: <a href="mailto:Joud.hasan85@gmail.com" class="contact-link">joud.hasan85@gmail.com</a></p>
+            <p>Tel: <a href="tel:+4917672116422" class="contact-link">+49 17672116422</a></p>
+
+            <br>
+            <form action="" method="post" id="contact-form" class="contact-form">
+                <label class="standard-label" for="contact-email">Email: </label>
+                <input type="email" id="contact-email" required class="contact-input">
+                <input type="submit" value="Submit" class="contact-button">
+                <br>
+                <br>
+                <label class="standard-label" for="contact-Telephone">Telephone:</label>
+                <input type="tel" id="contact-Telephone" class="contact-input">
+                <br>
+                <br>
+                <label class="standard-label" for="contact-Message">Message: </label>
+                <textarea maxlength="250" id="contact-Message" required class="contact-textarea"></textarea>
+                <input type="submit" value="Send message" class="contact-button">
+            </form>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="icon-container">
+            <img src="img/B.github.png" alt="GitHub Icon" />
+        </div>
+        <div class="icon-container">
+            <img src="img/B.facebook.png" alt="facebook Icon" />
+        </div>
+        <div class="icon-container">
+            <img src="img/B.linkedin.png" alt="LinkedIn Icon" />
+        </div>
+    </footer>
+</body>
+
+</html>
