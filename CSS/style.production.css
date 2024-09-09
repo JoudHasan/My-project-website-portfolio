@@ -5,18 +5,25 @@
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth; /* Enable smooth scrolling */
+}
+
 body {
   font-family: "Lato", sans-serif;
-  background-color: #fbf7f7;
+  background-color: white;
   color: #333;
   margin-bottom: 100px; /* Height of the footer */
 }
 
 .page-header {
-  background-color: #16621c; /* Dark green */
+  background-color: #0f3b13;
   padding: 10px;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
   margin-bottom: 25px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
 .header-container {
@@ -53,228 +60,97 @@ body {
 }
 
 .navigation-list__item:hover {
-  color: grey; /* Dark green */
+  color: grey;
 }
 
-.navigation-list__item--active {
-  color: white; /* Dark green */
-}
-
-.contact-us {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  padding: 20px;
+/* Home Section */
+.home-section {
+  padding: 60px 20px;
   text-align: center;
 }
 
-.contact-container {
-  max-width: 600px;
-  width: 100%;
-  margin-top: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  flex-wrap: wrap;
-}
-
-.contact-info {
-  flex: 1;
-  padding: 20px;
-  background-color: #fff;
-  border-radius: 5px;
-  margin: 10px;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.contact-form {
-  flex: 1;
-  padding: 20px;
-  background-color: #fff;
-  border-radius: 5px;
-  margin: 10px;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.standard-label {
-  font-weight: bold;
-  display: block;
-  margin-bottom: 5px;
-}
-
-.contact-input,
-.contact-textarea {
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
-
-.contact-button {
-  background-color: #16621c;
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.contact-button:hover {
-  background-color: #0d4d16; /* Darker green */
-}
-
-.footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  background-color: #fff;
-  box-shadow: 0px -2px 4px rgba(0, 0, 0, 0.1);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 50px;
-}
-
-.icon-container {
-  display: inline-block;
-  margin: 0 10px;
-}
-
-.icon-container img {
-  width: 30px;
-  height: 30px;
-}
-
-/* Media Queries */
-@media (max-width: 768px) {
-  .headername {
-    font-size: 20px;
-  }
-
-  .navigation-list__item {
-    font-size: 14px;
-  }
-
-  .contact-container {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .contact-info,
-  .contact-form {
-    width: 100%;
-    margin: 10px 0;
-  }
-
-  .contact-input,
-  .contact-textarea {
-    padding: 8px;
-  }
-
-  .contact-button {
-    padding: 8px 16px;
-  }
-
-  .icon-container img {
-    width: 25px;
-    height: 25px;
-  }
-}
-
-/* Additional Styles */
 .profile-container {
   text-align: center;
   margin-bottom: 20px;
 }
 
 .profile-image2 {
-  padding-top: 100px;
-  max-width: 300px; /* Adjust as needed */
+  padding-top: 20px;
+  max-width: 300px;
   width: 100%;
   height: auto;
   display: block;
-  margin: 0 auto 20px; /* Center image and add margin */
+  margin: 0 auto 20px;
   border-radius: 50%;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.welcome-text {
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-.welcome-text h2 {
-  font-size: 24px;
-  margin-bottom: 10px;
-}
-
-.welcome-text p {
-  font-size: 18px;
+.block-text {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-top: 10px;
   line-height: 1.6;
 }
-/* Reset default margin and padding for all elements */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
-/* Style for the about section */
+/* About Section */
 .about-section {
-  max-width: 800px; /* Adjust as needed */
-  margin: 0 auto; /* Center the section horizontally */
-  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 60px 20px;
 }
 
-/* Style for the h1 element */
 .about-section h1 {
   font-size: 28px;
   color: #333;
   margin-bottom: 20px;
+  text-align: center;
 }
 
-/* Style for the paragraph */
-.about-section .bio {
+.bio {
   font-size: 16px;
-  line-height: 1.6;
+  line-height: 1.8;
   color: #555;
 }
 
-/* Style for the download button */
-.about-section .download-button {
+.download-button {
+  text-align: center;
   margin-top: 20px;
 }
 
-.about-section .download-button button {
-  background-color: green;
+.download-button button {
+  background-color: #16621c;
   color: #fff;
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
-  font-size: 16px;
   cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
-.about-section .download-button button:hover {
-  background-color: grey;
+.download-button button:hover {
+  background-color: #0d4d16;
 }
+
+/* Work Section */
 .project-section {
   background-color: #f9f9f9;
+  padding: 60px 20px;
+  text-align: center;
 }
 
 .project-container {
   max-width: 800px;
-  margin: 0 auto;
+  margin: 40px auto; /* Add vertical space between projects */
   text-align: center;
+  padding-bottom: 20px; /* Optional: Add padding inside the container */
 }
 
-.project-container h2 {
-  font-size: 2.5rem;
-  margin-bottom: 20px;
+.name {
+  font-size: 1.8rem;
+  font-weight: 900;
+  margin-bottom: 10px;
   color: black;
 }
 
@@ -301,38 +177,98 @@ body {
   color: #fff;
   background-color: green;
   transition: background-color 0.3s ease;
-  margin-bottom: 40px; /* Add this line to create space below the button */
+  margin-bottom: 40px;
 }
 
 .btn:hover {
   background-color: grey;
 }
 
-/* Style for smaller chat app images displayed side by side */
-.chat-images {
-  display: flex;
-  justify-content: center;
-  gap: 20px; /* Add space between the images */
-  margin-bottom: 20px; /* Add space below the images */
-}
-
-.project-image-small {
-  width: 45%; /* Adjust the percentage to control the size of the images */
-  height: auto;
-  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1); /* Optional shadow for aesthetics */
-}
 .btn-secondary {
-  background-color: #333; /* Dark color for secondary button */
-  margin-left: 10px; /* Space between buttons */
+  background-color: #333;
+  margin-left: 10px;
 }
 
 .btn-secondary:hover {
-  background-color: grey; /* Hover effect for secondary button */
+  background-color: grey;
 }
 
-.name {
-  font-size: 1.5rem; /* Adjust the size as needed */
-  font-weight: 900; /* Very bold font weight */
-  margin-bottom: 10px; /* Add space below the name */
-  color: black; /* Ensure the name stands out */
+/* Contact Section */
+.contact-us {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #f0f0f0; /* Light background color for the block */
+  max-width: 800px;
+  margin: 40px auto; /* Center the block and add space */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+.contact-us h1 {
+  margin-bottom: 40px; /* Adds space between Contact heading and email */
+}
+
+.contact p {
+  margin-bottom: 20px;
+  font-size: 18px; /* Slightly larger font for readability */
+}
+
+.contact-link {
+  color: #16621c;
+  text-decoration: none;
+  font-weight: bold; /* Make the contact links bold */
+}
+
+.contact-link:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0px -2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  padding: 10px 0; /* Add some padding for footer content */
+}
+
+.icon-container {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.icon-container img {
+  width: 30px;
+  height: 30px;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .headername {
+    font-size: 20px;
+  }
+
+  .navigation-list__item {
+    font-size: 14px;
+  }
+
+  .icon-container img {
+    width: 25px;
+    height: 25px;
+  }
+}
+
+.project-image-small {
+  width: 300px; /* Fixed width */
+  height: 300px; /* Fixed height */
+  object-fit: contain; /* Ensures the whole image is visible without being cropped */
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  background-color: #f0f0f0; /* Optional: Adds a background color to fill any empty space */
 }
