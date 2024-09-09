@@ -6,56 +6,171 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
     <link rel="stylesheet" type="text/css" href="CSS/style.production.css">
+    <!-- Add AOS library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
+    <!-- Header -->
     <header class="page-header">
         <div class="header-container">
-            <p class="headername">Joud Hasan</p>
+            <p class="headername">MyPortfolio</p>
             <nav class="main-navigation">
                 <ul class="navigation-list">
-                    <li>
-                        <a href="index.html" class="navigation-list__item navigation-list__item--active">Home</a>
-                    </li>
-                    <li>
-                        <a href="about.html" class="navigation-list__item">About</a>
-                    </li>
-                    <li>
-                        <a href="work.html" class="navigation-list__item">Work</a>
-                    </li>
-                    <li>
-                        <a href="contact.html" class="navigation-list__item">Contact</a>
-                    </li>
+                    <li><a href="#home" class="navigation-list__item">Home</a></li>
+                    <li><a href="#about" class="navigation-list__item">About</a></li>
+                    <li><a href="#work" class="navigation-list__item">Work</a></li>
+                    <li><a href="#contact" class="navigation-list__item">Contact</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
-    <div id="my-main-container">
-        <div class="welcome-text-logo">
-            <div class="profile-container">
-                <img src="img/joud.png" alt="My Profile Image" class="profile-image2">
-            </div>
-            <div class="welcome-text">
-                <h2>My Portfolio</h2>
-                <p>journalist and writer and project manager.</p>
+    <!-- Home Section -->
+    <section id="home" class="home-section" data-aos="fade-up">
+        <div id="my-main-container">
+            <div class="welcome-text-logo">
+                <div class="profile-container">
+                    <img src="img/joud.png" alt="My Profile Image" class="profile-image2">
+                </div>
+                <div class="welcome-text">
+                    <h2>Joud Hasan</h2>
+                    <div class="block-text">
+                        <p>I am a Full-Stack Developer with a background in journalism and project management.
+                            To turn my passion for coding into a profession, I completed Career Foundry's Full-Stack Web
+                            Development program, where I gained expertise in JavaScript, React, NoSQL, and more.</p>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
+    </section>
 
+    <!-- About Section -->
+    <section id="about" class="about-section" data-aos="fade-up">
+        <h1>About</h1>
+        <p class="bio">
+            I have worked as a writer, reporter, and photographer in activist and multimedia journalism for the past
+            15 years, with a diverse range of experiences in Damascus, Beirut, and Berlin. During this time, I have
+            extensively covered events in Syria since 2011 and reported on happenings in Iraq and Lebanon as well.
+
+            <br /><br />
+
+            In addition to my journalistic work, I have also made notable contributions to various cultural events. One
+            of my significant accomplishments was my participation in "Another Place," an audio walk performance that
+            took place in multiple cities, including London, Berlin, Brussels, Beirut, and Santiago.
+
+            <br /><br />
+
+            I am the author of the book titled "Table Ground," which was published by the Syrian Association for
+            Citizenship in 2014. Furthermore, I authored a guidebook on citizen journalism in conflict areas, which was
+            published by Friedrich Ebert Stiftung in 2016.
+
+            <br /><br />
+
+            I received Samir Kassir Award for Freedom of the Press in 2013. Beyond my journalistic roles, I have also
+            taken on responsibilities as a project manager for various international organizations.
+
+            <br /><br />
+
+            Currently, I am working as a sub-grant lead at SMEX.
+            I continue to contribute to various media platforms through my writing and reporting.
+        </p>
+        </p>
+        <div class="download-button">
+            <button>Download my CV</button>
+        </div>
+    </section>
+
+    <!-- Work Section -->
+    <section id="work" class="project-section" data-aos="fade-up">
+        <h2>My Projects</h2>
+
+        <!-- Meet App -->
+        <div class="project-container">
+            <p class="name">Meet App</p>
+            <p>Meet is an application that empowers users to discover events happening in various cities. Users can
+                filter events by city, view event details, specify the number of events to display, use the app offline,
+                and visualize event details through charts.</p>
+            <img src="img/MEET.PNG" alt="Meet App" class="project-image">
+            <a href="https://joudhasan.github.io/meet/" class="btn btn-primary">View Project</a>
+        </div>
+
+        <!-- Chat App -->
+        <div class="project-container">
+            <p class="name">Chat App</p>
+            <p>This React Native Chat Application allows users to engage in real-time conversations, share images, and
+                even send their location. The app supports screen readers and offline message access, providing a
+                seamless chat experience across both iOS and Android devices.</p>
+            <div class="chat-images">
+                <img src="img/chatappo.png" alt="Chat App Screen 1" class="project-image-small">
+                <img src="img/chatappz.png" alt="Chat App Screen 2" class="project-image-small">
+            </div>
+
+            <a href="https://github.com/JoudHasan/Chat.App.git" class="btn btn-primary">View Project</a>
+        </div>
+
+        <!-- MyFlix App -->
+        <div class="project-container">
+            <p class="name">MyFlix App</p>
+            <p>MyFlix is a web application built with React that allows users to explore and enjoy a vast collection of
+                movies. With a responsive interface powered by React Bootstrap, MyFlix offers seamless navigation and a
+                great movie browsing experience. The app is connected to a MongoDB-based backend hosted on Heroku.
+            </p>
+            <img src="img/movies.png" alt="MyFlix App Screen" class="project-image">
+            <a href="https://mymovieflixy.netlify.app/" class="btn btn-primary">View Live App</a>
+            <a href="https://github.com/JoudHasan/myFlix-client" class="btn btn-secondary">View GitHub Repository</a>
+        </div>
+
+        <!-- MyMovie App -->
+        <div class="project-container">
+            <p class="name">MyMovie App</p>
+            <p>MyMovie is a web application built with Angular, offering a smooth and engaging movie browsing
+                experience. Users can explore a vast collection of movies with Angular's responsive design and seamless
+                navigation. Developed using Angular CLI, the app is easy to set up and manage.</p>
+            <img src="img/MyMovie.png" alt="MyMovie App Screen" class="project-image">
+            <a href="https://github.com/JoudHasan/myFlix-Angular-O.git" class="btn btn-primary">View Project</a>
+        </div>
+
+        <!-- Pokedex App -->
+        <div class="project-container">
+            <p class="name">Pokedex App</p>
+            <p>The Pokedex App allows users to explore various Pokemon, providing details such as names, heights, and
+                images. Built using HTML, CSS, JavaScript, Bootstrap, and the Fetch API, this app offers a clean and
+                intuitive user experience.</p>
+            <img src="img/Pokedex.png" alt="Pokedex App Screen" class="project-image">
+            <a href="https://github.com/JoudHasan/pokemon.-2.git" class="btn btn-primary">View Project</a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-us" data-aos="fade-up">
+        <h1>Contact</h1>
+
+        <!-- Contact Details -->
+        <div class="contact">
+            <p>Email: <a href="mailto:Joud.hasan85@gmail.com" class="contact-link">joud.hasan85@gmail.com</a></p>
+            <p>Tel: <a href="tel:+4917672116422" class="contact-link">+49 17672116422</a></p>
+        </div>
+    </section>
+
+    <!-- Footer (Placed outside the contact section) -->
     <footer class="footer">
-        <div class="icon-container">
-            <img src="img/B.github.png" alt="GitHub Icon" />
-        </div>
-        <div class="icon-container">
-            <img src="img/B.facebook.png" alt="Facebook Icon" />
-        </div>
-        <div class="icon-container">
-            <img src="img/B.linkedin.png" alt="LinkedIn Icon" />
-        </div>
+        <div class="icon-container"><img src="img/B.github.png" alt="GitHub Icon" /></div>
+        <div class="icon-container"><img src="img/B.facebook.png" alt="Facebook Icon" /></div>
+        <div class="icon-container"><img src="img/B.linkedin.png" alt="LinkedIn Icon" /></div>
     </footer>
+
+
+
+    <!-- Include AOS Library and Initialize -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000, // Animation duration (in milliseconds)
+            once: true // Animation happens only once (on scroll)
+        });
+    </script>
 </body>
 
 </html>
