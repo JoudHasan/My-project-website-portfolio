@@ -89,9 +89,7 @@
         <!-- Meet App -->
         <div class="project-container">
             <p class="name">Meet App</p>
-            <p>Meet is an application that empowers users to discover events happening in various cities. Users can
-                filter events by city, view event details, specify the number of events to display, use the app offline,
-                and visualize event details through charts.</p>
+            <p>Meet is an application that empowers users to discover events happening in various cities.</p>
             <img src="img/MEET.PNG" alt="Meet App" class="project-image">
             <a href="https://joudhasan.github.io/meet/" class="btn btn-primary">View Project</a>
         </div>
@@ -100,8 +98,7 @@
         <div class="project-container">
             <p class="name">Chat App</p>
             <p>This React Native Chat Application allows users to engage in real-time conversations, share images, and
-                even send their location. The app supports screen readers and offline message access, providing a
-                seamless chat experience across both iOS and Android devices.</p>
+                even send their location.</p>
             <div class="chat-images">
                 <img src="img/chatappo.png" alt="Chat App Screen 1" class="project-image-small">
                 <img src="img/chatappz.png" alt="Chat App Screen 2" class="project-image-small">
@@ -109,55 +106,21 @@
 
             <a href="https://github.com/JoudHasan/Chat.App.git" class="btn btn-primary">View Project</a>
         </div>
-
-        <!-- MyFlix App -->
-        <div class="project-container">
-            <p class="name">MyFlix App</p>
-            <p>MyFlix is a web application built with React that allows users to explore and enjoy a vast collection of
-                movies. With a responsive interface powered by React Bootstrap, MyFlix offers seamless navigation and a
-                great movie browsing experience. The app is connected to a MongoDB-based backend hosted on Heroku.
-            </p>
-            <img src="img/movies.png" alt="MyFlix App Screen" class="project-image">
-            <a href="https://mymovieflixy.netlify.app/" class="btn btn-primary">View Live App</a>
-            <a href="https://github.com/JoudHasan/myFlix-client" class="btn btn-secondary">View GitHub Repository</a>
-        </div>
-
-        <!-- MyMovie App -->
-        <div class="project-container">
-            <p class="name">MyMovie App</p>
-            <p>MyMovie is a web application built with Angular, offering a smooth and engaging movie browsing
-                experience. Users can explore a vast collection of movies with Angular's responsive design and seamless
-                navigation. Developed using Angular CLI, the app is easy to set up and manage.</p>
-            <img src="img/MyMovie.png" alt="MyMovie App Screen" class="project-image">
-            <a href="https://github.com/JoudHasan/myFlix-Angular-O.git" class="btn btn-primary">View Project</a>
-        </div>
-
-        <!-- Pokedex App -->
-        <div class="project-container">
-            <p class="name">Pokedex App</p>
-            <p>The Pokedex App allows users to explore various Pokemon, providing details such as names, heights, and
-                images. Built using HTML, CSS, JavaScript, Bootstrap, and the Fetch API, this app offers a clean and
-                intuitive user experience.</p>
-            <img src="img/Pokedex.png" alt="Pokedex App Screen" class="project-image">
-            <a href="https://github.com/JoudHasan/pokemon.-2.git" class="btn btn-primary">View Project</a>
-        </div>
     </section>
 
     <!-- Contact Section -->
     <section id="contact" class="contact-us" data-aos="fade-up">
         <h1>Contact</h1>
-
-        <!-- Contact Details -->
         <div class="contact">
             <p>Email: <a href="mailto:Joud.hasan85@gmail.com" class="contact-link">joud.hasan85@gmail.com</a></p>
             <p>Tel: <a href="tel:+4917672116422" class="contact-link">+49 17672116422</a></p>
         </div>
     </section>
 
-    <!-- Footer (Placed outside the contact section) -->
+    <!-- Footer -->
     <footer class="footer">
         <div class="icon-container">
-            <a href="hhttps://github.com/JoudHasan" target="_blank">
+            <a href="https://github.com/JoudHasan" target="_blank">
                 <img src="img/B.github.png" alt="GitHub Icon" />
             </a>
         </div>
@@ -173,15 +136,24 @@
         </div>
     </footer>
 
-
-
-
     <!-- Include AOS Library and Initialize -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init({
             duration: 1000, // Animation duration (in milliseconds)
             once: true // Animation happens only once (on scroll)
+        });
+    </script>
+
+    <!-- Smooth Scroll Script -->
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
         });
     </script>
 </body>
