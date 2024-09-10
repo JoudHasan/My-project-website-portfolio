@@ -1,68 +1,62 @@
+# Personal Portfolio Website
 
-# MEET
+This is a personal portfolio website built with HTML, CSS, and JavaScript to showcase projects and provide an overview of professional background, skills, and contact information. The website is fully responsive and includes smooth scrolling and animated sections.
 
-MEET is an application that empowers users to discover events happening in various cities. Users can filter events by city, view event details, specify the number of events to display, use the app offline, add shortcuts to the home screen, and visualize event details through charts.
-<img width="1430" alt="Screenshot 2024-04-16 at 11 56 40" src="https://github.com/JoudHasan/portfolio-website/assets/129724393/86c2339a-1e6a-48de-9aec-061097f28ab0">
+## Table of Contents
 
-## Key Features
+- [Features](#features)
+- [Sections](#sections)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contact](#contact)
+- [License](#license)
 
-* **Filter Events by City:**
-    - *Scenario:* A user wants to find events happening in their city, They open the app, go to the events section, and select the city from the city filter dropdown. The app then displays only the events taking place in New York.
+## Features
 
-* **Show/Hide Event Details:**
-    - *Scenario:* A user is browsing through the list of events and wants to see more information about a particular event without leaving the main list view. They tap on the event title or a designated button to expand the event details. After reading, they can hide the details by tapping the event again or a "hide details" button.
+- **Responsive Design**: The website is fully responsive and adapts to various screen sizes.
+- **Smooth Scrolling**: Navigation links scroll smoothly to the corresponding sections of the page.
+- **Animations**: Page elements are animated on scroll using the AOS (Animate On Scroll) library.
+- **Project Showcase**: Projects are listed with descriptions and links to live demos and GitHub repositories.
+- **Contact Information**: Visitors can view the contact information and reach out via email or phone.
 
-* **Specify Number of Events:**
-    - *Scenario:* A user wants to limit the number of events displayed on their screen due to limited screen space or to reduce clutter. They access the settings or preferences section of the app and specify that they only want to see a maximum of 10 events at a time. The app then adjusts the display accordingly.
+## Sections
 
-* **Use the App When Offline:**
-    - *Scenario:* A user is in an area with poor or no internet connectivity but wants to check upcoming events. They open the app, which has previously stored event data locally on their device. The app loads and displays the stored events, allowing the user to browse and interact with them even without an internet connection.
+1. **Header**:
 
-* **Add an App Shortcut to the Home Screen:**
-    - *Scenario:* A user frequently uses the events app and wants quick access to it from their device's home screen. They navigate to the app, find the option to add a shortcut to the home screen, and tap on it. A shortcut icon for the events app then appears on their device's home screen, allowing them to launch the app with a single tap.
+   - Includes navigation links to `Home`, `About`, `Work`, and `Contact`.
+   - Smooth scrolling is enabled for easy navigation between sections.
 
-* **Display Charts Visualizing Event Details:**
-    - *Scenario:* A user is interested in understanding trends or patterns in the types of events available. They navigate to the "Statistics" or "Charts" section of the app, where they can see graphical representations such as pie charts or bar graphs showing the distribution of events by category, time, location, etc. This helps them make informed decisions about which events to attend based on their preferences and schedules.
+2. **Home**:
 
-These scenarios illustrate how each key feature enhances the usability and functionality of the events app for users.
+   - A brief introduction of the developer (Joud Hasan) with a profile image.
+   - A text block with a short biography.
 
+3. **About**:
 
-## Gherkin's code
+   - A detailed professional background, including achievements, awards, and work experience in journalism and project management.
 
-1. **Show/Hide Event Details:**
-   - **Given** I am viewing a list of events,
-     **When** I click on an event,
-     **Then** the event details should expand, allowing me to see more information about it.
+4. **Work**:
 
-2. **Specify Number of Events:**
-   - **Given** I am on the events page,
-     **When** I navigate to the settings or preferences section,
-     **Then** I should be able to specify the maximum number of events to display.
+   - Showcase of different projects (`Meet App`, `Chat App`, `MyFlix`, `MyMovie`, `Pokedex`).
+   - Links to live versions and GitHub repositories for each project.
 
-3. **Use the App When Offline:**
-   - **Given** I have previously used the app and stored event data,
-     **When** I open the app without an internet connection,
-     **Then** I should still be able to view the stored event data.
+5. **Contact**:
+   - Email and phone contact information.
+   - Social media links (GitHub, Instagram, LinkedIn) in the footer.
 
-4. **Add an App Shortcut to the Home Screen:**
-   - **Given** I am a frequent user of the app,
-     **When** I navigate to the app settings,
-     **Then** I should find an option to add a shortcut to the home screen.
+## Technologies Used
 
-5. **Display Charts Visualizing Event Details:**
-   - **Given** I am exploring event details,
-     **When** I navigate to the charts or statistics section,
-     **Then** I should be presented with visual representations of event data, such as charts illustrating distribution by category, time, and location.
+- **HTML5**: For structuring the content.
+- **CSS3**: For styling and responsive layout.
+- **JavaScript**: For smooth scrolling and animations.
+- **AOS Library**: For scroll animations.
+- **GitHub Pages**: For hosting the portfolio.
 
+## Installation
 
+1. Clone the repository:
 
-   ##  Utilizing serverless functions:
-
-Incorporating serverless functions into your system will handle tasks like securely managing user access, acquiring and updating OAuth2 tokens, and guaranteeing the safety of communications between your React application and the Google Calendar API. Embracing the serverless architecture brings advantages such as seamless scalability, optimal resource utilization, and cost efficiency, given that you only incur expenses for function execution rather than maintaining a fixed server infrastructure.
-
-- [Meet App PDF](https://github.com/JoudHasan/meet/files/14934976/Meet.App.pdf)
-- This is the link to the Meet app: [joudhasan.github.io/meet/](https://joudhasan.github.io/meet/)
-- Homepage: [joudHasan.github.io/meet](https://joudhasan.github.io/meet)
-- [GitHub Pages](https://joudhasan.github.io/)
-
-
+   ```bash
+   git clone https://github.com/JoudHasan/portfolio-website.git
+   ```
