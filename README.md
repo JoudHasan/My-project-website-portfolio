@@ -57,6 +57,41 @@ This is a personal portfolio website built with HTML, CSS, and JavaScript to sho
 
 1. Clone the repository:
 
-   ```bash
    git clone https://github.com/JoudHasan/portfolio-website.git
-   ```
+
+2. Navigate to the project directory:
+   cd portfolio-website
+
+3. Open the index.html file in your browser:
+   open index.html
+
+## Usage
+
+Navigation: Use the navigation bar at the top to scroll smoothly between different sections of the website.
+Projects: Click on the project links to view live demos or GitHub repositories.
+Contact: Use the contact details in the footer to reach out.
+
+## Contact
+
+Joud Hasan
+Email: joud.hasan85@gmail.com
+Phone: +49 17672116422
+GitHub: JoudHasan
+Instagram: @joud0hasan
+LinkedIn: Joud Hasan
+
+## License
+
+This project is open-source and available under the MIT License.
+
+### Key Sections of the README:
+
+1. **Features**: Highlights the main features of your portfolio website.
+2. **Sections**: Describes the structure of the website and what each section does.
+3. **Technologies Used**: Lists the tools and libraries used in building the project.
+4. **Installation**: Provides steps to clone and run the project locally.
+5. **Usage**: Instructions for using the website.
+6. **Contact**: Information for anyone wanting to reach you.
+7. **License**: Optional, but you can specify a license for your project, such as MIT.
+
+Feel free to adjust or add any additional information you think is necessary!
