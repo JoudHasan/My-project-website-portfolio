@@ -79,10 +79,12 @@ Phone: +49 17672116422
 GitHub: JoudHasan
 Instagram: @joud0hasan
 LinkedIn: Joud Hasan
+medium.com/@joud.hasan85
+X:@Joud_Hasan85
 
 ## License
 
-This project is open-source and available under the MIT License.
+This project is open-source and available under the MIT License
 
 ### Key Sections of the README:
 
